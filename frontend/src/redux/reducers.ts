@@ -23,7 +23,6 @@ const productsSlice = createSlice({
     fetchProductsSuccess(state, action: PayloadAction<Product[]>) {
       state.products = action.payload;
     },
-    // Add other reducers as needed
   },
 });
 
